@@ -1,4 +1,4 @@
-# ENGLISH <img width="42px" src="./assets/icon.svg" /> JANALA
+# ENGLISH <img width="41px" src="./assets/icon.svg" /> JANALA
 
 <img width="100%" src="./assets/hero-student.svg" />
 
