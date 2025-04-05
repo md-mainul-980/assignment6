@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@$5/themes.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/icon.svg" type="image/x-icon">
+    <title>ENGLISH JANALA</title>
+</head>
+<body class="poppins-regular">
+    <header id="nav" class="hidden">
+        <div class="navbar bg-base-200 border-b-2 border-stone-300 bg-gradient-to-r from-white via-indigo-50 to-white lg:px-16 fixed top-0 w-full z-50 opacity-90">
+            <div class="flex-1 navbar-start">
+              <a class="flex items-center text-2xl font-extrabold" href="#">English<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="40" height="40" transform="translate(0.669922)" fill="url(#pattern0_1_93)"/>
+                <defs>
+                <pattern id="pattern0_1_93" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0_1_93" transform="scale(0.0104167)"/>
+                </pattern>
+                <image id="image0_1_93" width="96" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                </defs>
+                </svg><span class="hind-siliguri-regular">জানালা</span></a>
+            </div>
+
+            <div class="navbar-end md:hidden drawer drawer-end">
+              <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+              <div class="drawer-content">
+                <label for="my-drawer-4" class="drawer-button btn btn-ghost btn-circle btn-lg">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" 
+                  class="fill-current size-8">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                  </svg>
+                </label>
+              </div>
+              <div class="drawer-side">
+                <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+                <ul class="menu bg-gradient-to-r from-white via-indigo-50 to-white text-base-content min-h-full w-80 p-4 gap-4">
+                  <li><button onclick="faq_sec()" class="btn btn-outline btn-primary text-sm text-indigo-700 hover:bg-black"><svg viewBox="0 0 14 15" xmlns="http://www.w3.org/2000/svg" fill="#422AD5"
+                    class="size-4">
+                    <path d="M13.9625 7.75C13.9625 11.4961 10.9 14.5312 7.18125 14.5312C3.43516 14.5312 0.4 11.4961 0.4 7.75C0.4 4.03125 3.43516 0.96875 7.18125 0.96875C10.9 0.96875 13.9625 4.03125 13.9625 7.75ZM7.34531 3.21094C5.86875 3.21094 4.91172 3.83984 4.17344 4.96094C4.06406 5.125 4.09141 5.31641 4.22813 5.42578L5.18516 6.13672C5.32188 6.24609 5.54063 6.21875 5.65 6.08203C6.14219 5.45312 6.47031 5.09766 7.20859 5.09766C7.75547 5.09766 8.46641 5.45312 8.46641 6C8.46641 6.41016 8.11094 6.62891 7.56406 6.92969C6.93516 7.28516 6.0875 7.72266 6.0875 8.84375V8.95312C6.0875 9.14453 6.22422 9.28125 6.41563 9.28125H7.94688C8.11094 9.28125 8.275 9.14453 8.275 8.95312V8.92578C8.275 8.16016 10.5445 8.13281 10.5445 6C10.5445 4.41406 8.90391 3.21094 7.34531 3.21094ZM7.18125 9.99219C6.47031 9.99219 5.92344 10.5664 5.92344 11.25C5.92344 11.9609 6.47031 12.5078 7.18125 12.5078C7.86484 12.5078 8.43906 11.9609 8.43906 11.25C8.43906 10.5664 7.86484 9.99219 7.18125 9.99219Z" fill="#422AD5"/>
+                    </svg> FAQ</button></li>
+                  <li><button onclick="learn_sec()" class="btn btn-outline btn-primary text-sm text-indigo-700 hover:bg-black"><svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.6424 0.652344C16.1346 0.625 16.5721 1.00781 16.5447 1.47266V10.7148C16.5447 11.1523 16.1893 11.5352 15.7244 11.5625C14.3846 11.6172 11.6502 11.8906 9.76348 12.8477C9.4627 12.9844 9.10723 12.793 9.10723 12.4648V2.51172C9.10723 2.375 9.18926 2.23828 9.32598 2.15625C11.158 1.03516 14.1385 0.734375 15.6424 0.652344ZM8.04082 2.15625C8.17754 2.23828 8.25957 2.375 8.25957 2.51172V12.4648C8.25957 12.793 7.9041 12.9844 7.60332 12.8477C5.7166 11.8906 2.98223 11.6172 1.64238 11.5625C1.17754 11.5352 0.82207 11.1523 0.82207 10.7148V1.47266C0.82207 1.00781 1.23223 0.625 1.72441 0.652344C3.22832 0.734375 6.20879 1.03516 8.04082 2.15625Z" fill="#422AD5"/>
+                  </svg>
+                    Learn</button></li>
+                  <li><button onclick="logout()" class="btn btn-outline btn-primary text-sm text-indigo-700 hover:bg-black"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#422AD5" 
+                    class="size-5">
+                    <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/>
+                    </svg>
+                    Logout</button></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="hidden md:flex flex-none navbar-end">
+              <ul class="menu menu-horizontal px-1 gap-3">
+                <li><button onclick="faq_sec()"  class="btn btn-outline btn-primary text-sm text-indigo-700 hover:bg-black"><svg viewBox="0 0 14 15" xmlns="http://www.w3.org/2000/svg" fill="#422AD5"
+                    class="size-4">
+                    <path d="M13.9625 7.75C13.9625 11.4961 10.9 14.5312 7.18125 14.5312C3.43516 14.5312 0.4 11.4961 0.4 7.75C0.4 4.03125 3.43516 0.96875 7.18125 0.96875C10.9 0.96875 13.9625 4.03125 13.9625 7.75ZM7.34531 3.21094C5.86875 3.21094 4.91172 3.83984 4.17344 4.96094C4.06406 5.125 4.09141 5.31641 4.22813 5.42578L5.18516 6.13672C5.32188 6.24609 5.54063 6.21875 5.65 6.08203C6.14219 5.45312 6.47031 5.09766 7.20859 5.09766C7.75547 5.09766 8.46641 5.45312 8.46641 6C8.46641 6.41016 8.11094 6.62891 7.56406 6.92969C6.93516 7.28516 6.0875 7.72266 6.0875 8.84375V8.95312C6.0875 9.14453 6.22422 9.28125 6.41563 9.28125H7.94688C8.11094 9.28125 8.275 9.14453 8.275 8.95312V8.92578C8.275 8.16016 10.5445 8.13281 10.5445 6C10.5445 4.41406 8.90391 3.21094 7.34531 3.21094ZM7.18125 9.99219C6.47031 9.99219 5.92344 10.5664 5.92344 11.25C5.92344 11.9609 6.47031 12.5078 7.18125 12.5078C7.86484 12.5078 8.43906 11.9609 8.43906 11.25C8.43906 10.5664 7.86484 9.99219 7.18125 9.99219Z" fill="#422AD5"/>
+                    </svg> FAQ</button></li>
+                <li><button onclick="learn_sec()" class="btn btn-outline btn-primary text-sm text-indigo-700 hover:bg-black"><svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.6424 0.652344C16.1346 0.625 16.5721 1.00781 16.5447 1.47266V10.7148C16.5447 11.1523 16.1893 11.5352 15.7244 11.5625C14.3846 11.6172 11.6502 11.8906 9.76348 12.8477C9.4627 12.9844 9.10723 12.793 9.10723 12.4648V2.51172C9.10723 2.375 9.18926 2.23828 9.32598 2.15625C11.158 1.03516 14.1385 0.734375 15.6424 0.652344ZM8.04082 2.15625C8.17754 2.23828 8.25957 2.375 8.25957 2.51172V12.4648C8.25957 12.793 7.9041 12.9844 7.60332 12.8477C5.7166 11.8906 2.98223 11.6172 1.64238 11.5625C1.17754 11.5352 0.82207 11.1523 0.82207 10.7148V1.47266C0.82207 1.00781 1.23223 0.625 1.72441 0.652344C3.22832 0.734375 6.20879 1.03516 8.04082 2.15625Z" fill="#422AD5"/>
+                  </svg>
+                    Learn</button></li>
+                <li><button onclick="logout()" class="logout_btn btn btn-outline btn-primary text-sm text-indigo-700 hover:bg-black"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#422AD5" 
+                    class="size-5">
+                    <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/>
+                    </svg>
+                    Logout</button></li>
+              </ul>
+            </div>
+          </div>
+    </header>
+
+    <main>
+        <section id="login_section"  class="">
+            <div class="flex flex-col lg:flex-row-reverse items-center justify-between p-8 lg:px-16">
+              <img
+                src="assets/hero-student.svg"
+                class="max-w-sm md:max-w-md lg:max-w-2xl" />
+              <div>
+                <h1 class="text-7xl font-black"><span class="text-sky-500">English</span> is Easy!!</h1>
+                <p class="py-6 hind-siliguri-regular">
+                    আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা<br class="hidden lg:block"> আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে <br class="hidden lg:block">যাবে অন্য একটি Level এ
+                </p>
+                <div>
+                    <div class="w-full max-w-sm shrink-0 mb-6 flex flex-col gap-4">
+                        <label class="floating-label">
+                            <input id="name" type="text" placeholder="Enter Your Name" class="input input-md" />
+                            <span>Name</span>
+                        </label>
+                        <label class="floating-label">
+                            <input id="password" type="password" placeholder="Enter Your Password" class="input input-md" />
+                            <span>Password</span>
+                        </label>
+                        
+                    </div>
+                    <button onclick="login()" id="login_btn" class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+        </section>
+        
+        <!-- lesson section -->
+        <section id="lesson-section" class="lg:mb-40 lg:mt-24 my-10 lg:px-16 hidden px-4">
+          <h1 class="text-4xl text-center font-bold py-10">
+            <span class="text-sky-400"> Let's </span>Learn Vocabularies
+          </h1>
+
+          <!-- lesson buttons -->
+          <div
+            id="lesson-btn-container"
+            class="flex justify-center gap-4 flex-wrap mb-5 mx-3"
+          ></div>
+          
+          <!-- loader -->
+          <div id="loader" class="hidden mx-auto max-w-lg">
+            <span class="loading loading-ring loading-xs"></span>
+            <span class="loading loading-ring loading-xs"></span>
+            <span class="loading loading-ring loading-sm"></span>
+            <span class="loading loading-ring loading-sm"></span>
+            <span class="loading loading-ring loading-md"></span>
+            <span class="loading loading-ring loading-md"></span>
+            <span class="loading loading-ring loading-lg"></span>
+            <span class="loading loading-ring loading-lg"></span>
+            <span class="loading loading-ring loading-xl"></span>
+            <span class="loading loading-ring loading-xl"></span>
+          </div>
+    
+          <!-- grid -->
+          <div
+            id="grid-container"
+            class="bg-base-200 grid lg:grid-cols-3 grid-cols-1 gap-6 mx-auto rounded-xl p-2"
+          >
+            <div
+              class="mx-auto max-w-lg rounded-4xl text-center space-y-3 flex flex-col items-center py-24 col-span-3"
+            >
+              <p class="hind-siliguri text-base">
+                আপনি কোন lesson select করেন নাই
+    
+              </p>
+              <h1 class="text-3xl md:text-4xl font-semibold hind-siliguri">
+                একটি Lesson Select করুন।
+              </h1>
+            </div>
+          </div>
+
+
+        <dialog id="modal" class="modal"></dialog>
+
+        </section>
+
+        <!-- faq section -->
+        <section id="faq" class="lg:px-16 mx-auto my-20 hidden px-4">
+          <h1 class="text-4xl text-center font-bold py-7">
+            <span class="text-sky-400"> Frequently </span>Asked Questions
+          </h1>
+          <div class="space-y-4">
+            <div
+              class="bg-slate-100 collapse collapse-plus bg-base-100 border border-base-300"
+            >
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title font-semibold">
+               1. How can I start learning English on this website?
+              </div>
+              <div class="collapse-content text-sm">
+                You can start learning English by asking me anything related to grammar, vocabulary, pronunciation, or even practicing conversations
+              </div>
+            </div>
+            <div
+              class="bg-slate-100 collapse collapse-plus bg-base-100 border border-base-300"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold">
+                2.Is this website free to use?
+              </div>
+              <div class="collapse-content text-sm">
+                Yes, using this website to chat with me is free
+              </div>
+            </div>
+            <div
+              class="bg-slate-100 collapse collapse-plus bg-base-100 border border-base-300"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold">
+                3.  Do I need to create an account?
+              </div>
+              <div class="collapse-content text-sm">
+                Yes, You can create an account
+              </div>
+            </div>
+            <div
+              class="bg-slate-100 collapse collapse-plus bg-base-100 border border-base-300"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold">
+                4.How JavaScript Promises work?
+              </div>
+              <div class="bg-slate-100 collapse-content text-sm">
+                Handle asynchronous operations using .then(), .catch(), and
+                .finally().
+              </div>
+            </div>
+            <div
+              class="bg-slate-100 collapse collapse-plus bg-base-100 border border-base-300"
+            >
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title font-semibold">
+                5. How can I build my English vocabulary?
+              </div>
+              <div class="bg-slate-100 collapse-content text-sm">
+                Building your English vocabulary takes practice, but here are some effective ways to do it:
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="footer lg:items-center lg:justify-between sm:footer-horizontal bg-base-100 text-content p-8 lg:px-16 border-t-3 border-pink-100">
+      
+      <aside>
+        <h1><a class="flex items-center text-2xl font-extrabold" href="#">English<img src="assets/icon.svg" alt="icon"><span class="hind-siliguri-regular">জানালা</span></a></h1>
+        <h2 class="text-xl hind-siliguri-regular">ইংরেজি শিখুন সহজে</h2>
+        <p class="font-medium">Providing ED-Tech Applications since 2025</p>
+      </aside>
+      <!-- social media links -->
+      <nav class="lg:p-16">
+        <h6 class="footer-title text-base-content">Follow us</h6>
+        <div class="flex items-center justify-center gap-4">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="assets/fb-thumb.svg" alt="" class="size-6">
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="assets/youtube-thumb.svg" alt="" class="size-7">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="assets/instagram-thumb.svg" alt="" class="size-6">
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src="assets/github-thumb.svg" alt="" class="size-6">
+          </a>
+          
+        </div>
+      </nav>
+    </footer>
+
+  <script src="utilities/utilities.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
